@@ -1,0 +1,189 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "nama": "Administrator",
+            "username": "admin",
+            "role": "admin",
+            "password": "$2y$10$x.k3x2.CyR1JvqlN2tgQdeaHkyYdO1hsQ6.mS89tS1BzJ11T1UmXW"
+        },
+        {
+            "id": 2,
+            "nama": "Joko Driyono",
+            "username": "jokdri",
+            "role": "petugas",
+            "password": "$2y$10$ugMvimrI9q9BMA2cU20PP.nYA3anU98Iv78fOgPcpKtKgv6SUuk6K"
+        },
+        {
+            "id": 3,
+            "nama": "Hey Antek Aseng",
+            "username": "heha_cute",
+            "role": "kasir",
+            "password": "$2y$10$0C5j18hV1Qs0yeRTf.V5TenCUv3GNbnnNRy8jEpWoCO8GltJiDst6"
+        }
+    ],
+    "pasien": [
+        {
+            "id": 1,
+            "no_rm": "RM-000001",
+            "nama": "Siti Aminah",
+            "nik": "3276010101800001",
+            "gender": "Perempuan",
+            "tgl_lahir": "1980-01-01",
+            "alamat": "Jl. Melati No. 12",
+            "no_bpjs": "0001234567890"
+        },
+        {
+            "id": 2,
+            "no_rm": "RM-000002",
+            "nama": "Budi Santoso",
+            "nik": "3276020202900002",
+            "gender": "Laki-laki",
+            "tgl_lahir": "1990-02-02",
+            "alamat": "Jl. Kenanga No. 7",
+            "no_bpjs": "0009876543210"
+        },
+        {
+            "id": 3,
+            "no_rm": "RM-000003",
+            "nama": "Joko Driyono",
+            "nik": "1233445556666",
+            "gender": "Laki-laki",
+            "tgl_lahir": "1971-05-11",
+            "alamat": "jalan jalan ketaman bunga, pulangnya beli es sirup, jika kamu sudah bahagia, biarkan aku menikmati hidup",
+            "no_bpjs": "-"
+        }
+    ],
+    "dokter": [
+        {
+            "id": 1,
+            "nama": "dr. Raka Pratama",
+            "spesialis": "Umum",
+            "sip": "SIP-UM-001",
+            "telepon": "081234567890"
+        },
+        {
+            "id": 2,
+            "nama": "dr. Maya Lestari, Sp.PD",
+            "spesialis": "Penyakit Dalam",
+            "sip": "SIP-PD-002",
+            "telepon": "081298765432"
+        }
+    ],
+    "poli": [
+        {
+            "id": 1,
+            "nama": "Poli Umum",
+            "lantai": "1",
+            "status": "Aktif"
+        },
+        {
+            "id": 2,
+            "nama": "Poli Penyakit Dalam",
+            "lantai": "2",
+            "status": "Aktif"
+        }
+    ],
+    "bangsal": [
+        {
+            "id": 1,
+            "nama": "Mawar",
+            "kelas": "Kelas 1",
+            "penanggung_jawab": "Ns. Lina"
+        },
+        {
+            "id": 2,
+            "nama": "Anggrek",
+            "kelas": "Kelas 2",
+            "penanggung_jawab": "Ns. Putri"
+        }
+    ],
+    "tempat_tidur": [
+        {
+            "id": 1,
+            "bangsal": "Mawar",
+            "nomor": "MW-01",
+            "kelas": "Kelas 1",
+            "status": "Tersedia"
+        },
+        {
+            "id": 2,
+            "bangsal": "Mawar",
+            "nomor": "MW-02",
+            "kelas": "Kelas 1",
+            "status": "Terisi"
+        },
+        {
+            "id": 3,
+            "bangsal": "Anggrek",
+            "nomor": "AG-01",
+            "kelas": "Kelas 2",
+            "status": "Tersedia"
+        }
+    ],
+    "tarif": [
+        {
+            "id": 1,
+            "nama": "Konsultasi Dokter Umum",
+            "kategori": "Rawat Jalan",
+            "harga": 75000
+        },
+        {
+            "id": 2,
+            "nama": "Pemeriksaan Darah Lengkap",
+            "kategori": "Laborat",
+            "harga": 125000
+        },
+        {
+            "id": 3,
+            "nama": "Foto Thorax",
+            "kategori": "Radiologi",
+            "harga": 180000
+        }
+    ],
+    "obat": [
+        {
+            "id": 1,
+            "nama": "Paracetamol 500 mg",
+            "satuan": "Tablet",
+            "stok": 240,
+            "harga": 1200
+        },
+        {
+            "id": 2,
+            "nama": "Amoxicillin 500 mg",
+            "satuan": "Kapsul",
+            "stok": 120,
+            "harga": 2500
+        }
+    ],
+    "pendaftaran": [
+        {
+            "id": 1,
+            "tanggal": "2026-05-18",
+            "jenis": "Poli",
+            "pasien_id": 1,
+            "poli_id": 1,
+            "dokter_id": 1,
+            "bangsal_id": 0,
+            "keluhan": "Kontrol rutin",
+            "status": "Terdaftar"
+        }
+    ],
+    "layanan": [
+        {
+            "id": 1,
+            "tanggal": "2026-05-18",
+            "unit": "Poli",
+            "pendaftaran_id": 1,
+            "dokter_id": 1,
+            "diagnosa": "hiper",
+            "tindakan": "",
+            "catatan": ""
+        }
+    ],
+    "billing": [],
+    "kasir": [],
+    "penjualan_obat": [],
+    "sep_checks": []
+}
